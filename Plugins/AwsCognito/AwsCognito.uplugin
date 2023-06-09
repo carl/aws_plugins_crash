@@ -1,0 +1,66 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.0.4",
+	"FriendlyName": "AwsCore::Cognito",
+	"Description": "AWS Cognito",
+	"Category": "eelDev Plugins",
+	"CreatedBy": "eeldev",
+	"CreatedByURL": "https://eeldev.com",
+	"DocsURL": "https://eeldev.com",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/8cbe4cdd049d4a58a6042b623d4dfe5c",
+	"SupportURL": "https://eeldev.com",
+	"CanContainContent": true,
+	"Installed": true,
+	"EnabledByDefault": false,
+	"Modules": [
+		{
+			"Name": "CognitoLoader",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Android",
+				"Mac",
+				"IOS"
+			]
+		},
+		{
+			"Name": "CognitoPlatform",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Android",
+				"Mac",
+				"IOS"
+			]
+		},
+		{
+			"Name": "Cognito",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Android",
+				"Mac",
+				"IOS"
+			]
+		},
+		{
+			"Name": "CognitoIdentity",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Android",
+				"Mac",
+				"IOS"
+			]
+		}
+	]
+}

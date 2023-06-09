@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.0.3",
+	"FriendlyName": "AwsCore::GameLiftServer",
+	"Description": "AWS GameLiftServer",
+	"Category": "eelDev Plugins",
+	"CreatedBy": "eeldev",
+	"CreatedByURL": "https://eeldev.com",
+	"DocsURL": "https://eeldev.com",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/3437d983a81e423aae09c8dd1f232933",
+	"SupportURL": "https://eeldev.com",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "AwsGameLiftServer",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Android",
+				"Mac",
+				"IOS"
+			]
+		}
+	]
+}

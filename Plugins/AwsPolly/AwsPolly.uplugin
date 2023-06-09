@@ -1,0 +1,42 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.0.6",
+	"FriendlyName": "AwsCore::Polly",
+	"Description": "AWS Polly",
+	"Category": "eelDev Plugins",
+	"CreatedBy": "eeldev",
+	"CreatedByURL": "https://eeldev.com",
+	"DocsURL": "https://eeldev.com/index.php/AwsCorepolly/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/276892a3518b4d89b4e269fe74475abd",
+	"SupportURL": "https://eeldev.com",
+	"CanContainContent": true,
+	"Installed": true,
+	"EnabledByDefault": false,
+	"Modules": [
+		{
+			"Name": "AwsPollyLoader",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Android",
+				"Mac",
+				"IOS"
+			]
+		},
+		{
+			"Name": "AwsPolly",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Android",
+				"Mac",
+				"IOS"
+			]
+		}
+	]
+}
